@@ -1,0 +1,160 @@
+body {
+    background-color: #1a1a1a;
+    color: #96f196;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    position: relative;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 40px; 
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-info {
+    color: #ccc;
+}
+
+.logout-btn {
+    background-color: #666;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.auth-form {
+    background-color: #2d2d2d;
+    padding: 30px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+.add-form {
+    background-color: #2d2d2d;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.password-group {
+    display: flex;
+    gap: 10px;
+}
+
+.password-group input {
+    flex: 1;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #3d3d3d;
+    border: 1px solid #555;
+    color: white;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.toggle-password {
+    background-color: #666;
+    width: auto;
+    padding: 10px 15px;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.password-list {
+    background-color: #2d2d2d;
+    border-radius: 5px;
+}
+
+.password-item {
+    padding: 15px;
+    border-bottom: 1px solid #444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.password-item:last-child {
+    border-bottom: none;
+}
+
+.site-name {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.empty-message {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+}
+
+.error {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.auth-link {
+    text-align: center;
+    margin-top: 15px;
+    color: #ccc;
+}
+
+.auth-link a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.aboltus-label {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #b9aaaa;
+    font-size: 16px;
+    font-style: italic;
+    z-index: 1000;
+}
