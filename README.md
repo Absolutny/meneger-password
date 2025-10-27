@@ -32,7 +32,7 @@
 Шаги установки
 
 1. Клонируйте репозиторий
-git clone https://github.com/aboltus/password-manager.git
+git clone https://github.com/Absolutny/menager-password.git
 cd password-manager
 
 3. Установите зависимости
